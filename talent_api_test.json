@@ -1,0 +1,59 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "444946e6-65c7-4057-949c-dffa702bdf42",
+        "name": "API Voll.med"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Scenario",
+            "id": "4e9a97dd-52e7-45d0-a28f-d15f5a1159d5",
+            "name": "Requisições"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text",
+                  "textBody": "{\n\"nome\": \"Rodrigo Ferreira\",\n\"email\": \"rodrigo.ferreira@voll.med\",\n\"crm\": \"123456\",\n\"especialidade\": \"ortopedia\",\n\"endereco\": {\n    \"logradouro\": \"rua 1\",\n    \"bairro\": \"bairro\",\n    \"cep\": \"12345678\",\n    \"cidade\": \"Brasilia\",\n    \"uf\": \"DF\",\n    \"numero\": \"1\",\n    \"complemento\": \"complemento\"\n    }\n}"
+                },
+                "uri": {
+                  "scheme": {
+                    "name": "http",
+                    "version": "V11"
+                  },
+                  "host": "localhost:8080",
+                  "path": "/medicos"
+                },
+                "id": "4019f76c-4d04-4792-a8c4-5b1ab1ee7308",
+                "name": "Medicos",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
