@@ -30,7 +30,7 @@
                     "items": []
                   },
                   "bodyType": "Text",
-                  "textBody": "{\n\"nome\": \"Rodrigo Ferreira\",\n\"email\": \"rodrigo.ferreira@voll.med\",\n\"crm\": \"123456\",\n\"especialidade\": \"ortopedia\",\n\"endereco\": {\n    \"logradouro\": \"rua 1\",\n    \"bairro\": \"bairro\",\n    \"cep\": \"12345678\",\n    \"cidade\": \"Brasilia\",\n    \"uf\": \"DF\",\n    \"numero\": \"1\",\n    \"complemento\": \"complemento\"\n    }\n}"
+                  "textBody": "{\n\"nome\": \"Rodrigo Ferreira\",\n\"email\": \"rodrigo.ferreira@voll.med\",\n\"crm\": \"123456\",\n\"especialidade\": \"ORTOPEDIA\",\n\"endereco\": {\n    \"logradouro\": \"rua 1\",\n    \"bairro\": \"bairro\",\n    \"cep\": \"12345678\",\n    \"cidade\": \"Brasilia\",\n    \"uf\": \"DF\",\n    \"numero\": \"1\",\n    \"complemento\": \"complemento\"\n    }\n}"
                 },
                 "uri": {
                   "scheme": {
@@ -66,15 +66,19 @@
                     "items": []
                   },
                   "bodyType": "Text",
-                  "textBody": "{\n\"nome\": \"Rodrigo Ferreira\",\n\"email\": \"rodrigo.ferreira@voll.med\",\n\"crm\": \"123456\",\n\"especialidade\": \"ortopedia\",\n\"endereco\": {\n    \"logradouro\": \"rua 1\",\n    \"bairro\": \"bairro\",\n    \"cep\": \"12345678\",\n    \"cidade\": \"Brasilia\",\n    \"uf\": \"DF\",\n    \"numero\": \"1\",\n    \"complemento\": \"complemento\"\n    }\n}"
+                  "textBody": "{\n  \"nome\": \"Diogo Pocas\",\n  \"email\": \"diovidaloka@gmail.com\",\n  \"cpf\": \"999.999.999-99\",\n  \"telefone\": \"11 91111-1111\",  \n  \"endereco\": {\n      \"logradouro\": \"rua 1\",\n      \"bairro\": \"bairro\",\n      \"cep\": \"12345678\",\n      \"cidade\": \"Brasilia\",\n      \"uf\": \"DF\",\n      \"numero\": \"1\",\n      \"complemento\": \"complemento\"\n      }\n}"
                 },
                 "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
                   "scheme": {
                     "name": "http",
                     "version": "V11"
                   },
                   "host": "localhost:8080",
-                  "path": "/medicos"
+                  "path": "/pacientes"
                 },
                 "id": "a904491f-93ae-42b0-bd59-476cae3921b5",
                 "name": "Pacientes",
